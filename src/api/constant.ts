@@ -1,0 +1,1 @@
+const otpExpireTime=60; //60 second
