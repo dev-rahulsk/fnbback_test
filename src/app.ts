@@ -30,7 +30,7 @@ app.use("/api/user", userRoutes);
 app.use("/api/post", postRoutes);
 app.use("/api/location", locationRoutes);
 app.use("/api/admin",adminRoutes)
-
+app.use("/" , (req,res)=> res.send('hello'))
 app.listen(8000, () => {
   console.log("Server listening on port 8000");
   connectDB();
